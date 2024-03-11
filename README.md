@@ -63,18 +63,25 @@ print("RMSE = ",rmse)
 
 ## Output:
 
+### df.head():
 ![exp2-1](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/b279ce53-6b28-4f40-922e-71d37a4bfc03)
 
+### Values of x:
 ![exp2-2](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/285b5e4b-2020-4861-955d-18205c8a7f49)
 
+### Values of y:
 ![exp2-3](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/8fbb6e61-4959-476b-bba9-4f2c616e8800)
 
+### Values of y_train:
 ![exp2-4](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/29280a4b-424d-4e1b-90db-d4dc89f679c0)
 
+### Values of y_pred:
 ![exp2-5](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/245fba19-5b24-4ad5-b6cb-dd6f4d0a2773)
 
+### Training Set:
 ![exp2-6](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/496a6e6e-781c-4f9f-940f-5c63f52ca88c)
 
+### Values of MSE, MAE, RMSE:
 ![exp2-7](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/79539abe-3b77-4e83-b7b8-320cf1cba482)
 
 ## Result:
