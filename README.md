@@ -52,6 +52,13 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 
+plt.scatter(x_test,y_test,color="yellow")
+plt.plot(x_test,regressor.predict(x_test),color="purple")
+plt.title("Hours vs scores(Test Data Set)")
+plt.xlabel("Hours")
+plt.ylabel("Scores")
+plt.show()
+
 mse=mean_squared_error(y_test,y_pred)
 print("MSE= ",mse)
 mae=mean_absolute_error(y_test,y_pred)
@@ -78,8 +85,11 @@ print("RMSE = ",rmse)
 ### Values of y_pred:
 ![exp2-5](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/245fba19-5b24-4ad5-b6cb-dd6f4d0a2773)
 
-### Training Set:
+### Training Set Graph:
 ![exp2-6](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/496a6e6e-781c-4f9f-940f-5c63f52ca88c)
+
+### Test set Graph:
+![Screenshot 2024-05-09 220140](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/33e7a000-93e6-4ed6-a974-95bb1255e74e)
 
 ### Values of MSE, MAE, RMSE:
 ![exp2-7](https://github.com/Gopika-9266/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/122762773/79539abe-3b77-4e83-b7b8-320cf1cba482)
